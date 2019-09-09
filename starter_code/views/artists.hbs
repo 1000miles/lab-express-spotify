@@ -1,0 +1,10 @@
+<div class="artists-wrapper">
+    {{#each artists }}
+    <div class="artist-info-box">
+        <img src="{{ this.images.0.url }}">
+        <p>{{ this.name }}</p>
+        <button type="submit"><a href="/albums/{{ this.id }}">View Albums</a></button>
+    </div>
+    {{/each}}
+</div>
+

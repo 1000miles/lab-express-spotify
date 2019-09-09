@@ -1,0 +1,9 @@
+<div class="tracks-wrapper">
+    <h1>track page</h1>
+        {{#each tracks }}
+            <h3>{{ this.name }}</h3>
+            <audio controls="true">
+                <source src={{ this.preview_url }} type="audio/mpeg"/>
+            </audio>
+        {{/each }}
+</div>

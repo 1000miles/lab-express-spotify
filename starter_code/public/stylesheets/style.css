@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: thistle;
+
+    display: flex;
+}
+
+.container {
+    /* @DEBUG border: 1px solid green; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inline {
+    height: 200px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+
+    display: flex;
+    align-items: space-evenly;
+}
+
+.form-inline input {
+    /* @DEBUG border: 1px solid yellow; */
+
+    width: 400px !important;
+    margin: auto !important;
+}
+
+.form-inline button {
+    /* @DEBUG border: 1px solid blue; */
+    margin: auto;
+}
